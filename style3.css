@@ -1,0 +1,101 @@
+.box
+{
+background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+height:300px;
+align-items: center;
+top:110px;
+opacity:1;
+border:1px solid black;
+border-radius:50px;
+border-width:40px;
+font-size:30px;
+color:white;
+padding-right:0px;
+
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+}
+@font-face {
+    font-family: batma;
+    src:url(batmfa__.ttf);
+    font-weight: 100;
+  /*  font-style: normal;*/
+
+}
+.box:hover
+{
+    transform: scale(1.124);
+    transition: 200ms ease-in;
+	opacity:0.8;
+}
+body
+{
+	background-color:black;
+}
+span
+{
+    font-family: 'batma';
+	color:white;
+	position:absolute;
+	top:40px;
+	font-size:40px;
+}
+img
+{
+	height:50px;
+	width:50px;
+}
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+
