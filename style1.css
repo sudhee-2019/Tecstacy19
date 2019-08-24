@@ -128,11 +128,6 @@ justify-content: space-around;
 	  display: none;
 	}
   }
-
-  
-  .container1{
-	padding: 2em;
-  }
   
   /* GENERAL BUTTON STYLING */
   button,
@@ -204,7 +199,7 @@ justify-content: space-around;
 .tecstasy_text{
 	font-family: 'batma';
 	display: none;
-	margin: auto;
+	margin: 0.75em auto;
 	align-self: center;
 	font-size: 40px;
 	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
@@ -321,7 +316,7 @@ justify-content: space-around;
 	position: absolute;
     left: 0;
     right: 0;
-    top: calc(50% + 115px);
+    bottom: 10px;
 }
 .desc
 {
