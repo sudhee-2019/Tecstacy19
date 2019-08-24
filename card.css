@@ -8,7 +8,13 @@
   justify-content: center;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  animation:fadeInOut 3s;
   
+}
+@keyframes fadeInOut {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
 }
 .card-primary{
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
