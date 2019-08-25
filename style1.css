@@ -8,9 +8,7 @@
 	height: 170px;
 	animation: fadeIn 15s;
 	/* animation: fadeOut 8s; */
-	  
-
-	
+	  	
 	/* Centering the image in middle */
 	margin: 0;
   	position: absolute;
@@ -27,6 +25,13 @@
     font-weight: 100;
   /*  font-style: normal;*/
 
+}
+
+#cbit_logo{
+	height: 100px;
+	right: 30px;
+	top: 30px;
+	position: absolute;
 }
 .desc-box{
 	background-image: linear-gradient(to top, rgba(255,0,0,0.08),rgba(255,0,0,1));
