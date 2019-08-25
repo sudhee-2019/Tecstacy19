@@ -33,6 +33,15 @@
 	top: 30px;
 	position: absolute;
 }
+
+@media only screen and (max-width: 450px) {
+	#cbit_logo{
+		height: 60px;
+		right: 20px;
+		top: 20px;
+		position: absolute;
+	}	
+  }
 .desc-box{
 	background-image: linear-gradient(to top, rgba(255,0,0,0.08),rgba(255,0,0,1));
 	/* margin-top: 180px;

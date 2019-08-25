@@ -8,6 +8,7 @@
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   animation:fadeInOut 3s;
+  font-family: 'batma';
   
 }
 @keyframes fadeInOut {
