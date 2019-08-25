@@ -2,13 +2,18 @@
   position: relative;
   width: 100%;
   display: -webkit-flex;
-  overflow: hidden;
   display: flex;
   -webkit-justify-content: center;
   justify-content: center;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  animation:fadeInOut 3s;
   
+}
+@keyframes fadeInOut {
+	0% { opacity: 0; }
+	50% { opacity: 0.5; }
+	100% { opacity: 1; }
 }
 .card-primary{
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
@@ -17,7 +22,7 @@
   border-image: 
     linear-gradient(
  #c0495c , #b15119
-    ) 1 100%;
+    ) 1;
   border-radius: 3px;
   background-color: transparent;
 /*  color: #555;*/
@@ -26,20 +31,16 @@
   width: 355px;
   height: 450px;
   margin: 20px;
-  padding: 10px;
+  padding:30px;
+  opacity: 0.8;
 }
 
 .card-primary:hover {
   z-index: 1;
-  border: none;
   box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-  transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-  margin: 5px;
+  transform: scale(1.125);
+  transition: box-shadow 0.2s ease, transform 0.5s ease, -webkit-transform 0.2s ease,opacity 0.5s ease-in;
+  opacity: 1;
 
 }
 

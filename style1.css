@@ -33,7 +33,6 @@
 	/* margin-top: 180px;
 	margin-left: 350px; */
 	align-items: center;
-	height: 550px;
 	width: 700px;
 	border:2px solid black;
 	border-radius: 50px;
@@ -69,11 +68,6 @@ justify-content: space-around;
 	/* float: right; */
 	/* vertical-align: middle; */
 }
-
-
-
-
-
 .loading1{
 	z-index: -1;
 	height: 150px;
@@ -128,10 +122,10 @@ justify-content: space-around;
 
 
 }
-
-  
-  .container1{
-	padding: 2em;
+@media only screen and (max-width: 1000px) {
+	.loading1,.loading2,.loading3 {
+	  display: none;
+	}
   }
   
   /* GENERAL BUTTON STYLING */
@@ -203,8 +197,7 @@ justify-content: space-around;
 
 .tecstasy_text{
 	font-family: 'batma';
-	display: none;
-	margin: auto;
+	margin: 0.75em auto;
 	align-self: center;
 	font-size: 40px;
 	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
@@ -214,8 +207,21 @@ justify-content: space-around;
 	background: linear-gradient(to right, red, orange 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-		animation: fadeIn 15s;
 }
+
+.tecstasy_text,
+.container1 {
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 7s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+}
+
+.container1 {
+	animation-delay: 6.5s;
+}
+
 /*.top-nav-bar{
 	height: 10px;
 	margin-left: 230px;
@@ -320,8 +326,8 @@ justify-content: space-around;
 .align{
 	position: absolute;
     left: 0;
-    right: 0;
-    top: calc(50% + 115px);
+	right: 0;
+	top: calc(50% + 100px);
 }
 .desc
 {
