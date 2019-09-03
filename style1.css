@@ -222,6 +222,47 @@ justify-content: space-around;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+.tecstasy_text1{
+	font-family: 'batma';
+	margin: 0.75em auto;
+	float: right;
+	margin-top: -60px;
+	font-size: 15px;
+	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
+	z-index: 1; 
+	width: 260px;
+	/* For the Tecstacy color */
+	background: linear-gradient(to right, red, orange 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.tecstasy_text2{
+	font-family: 'batma';
+	margin: 0.75em auto;
+	float: left;
+	margin-top: -60px;
+	font-size: 15px;
+	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
+	z-index: 1; 
+	width: 260px;
+	/* For the Tecstacy color */
+	background: linear-gradient(to right, red, orange 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.tecstasy_text3{
+	font-family: 'batma';
+	margin: 0.75em auto;
+	margin-top: -500px;
+	font-size: 20px;
+	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
+	z-index: 1; 
+	width: 680px;
+	/* For the Tecstacy color */
+	background: linear-gradient(to right, red, orange 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 .tecstasy_text,
 .container1 {
@@ -349,4 +390,26 @@ justify-content: space-around;
 	width:400px;
 	font-size:30px;
 }
+@media only screen and (max-width: 1000px) {
+	.tecstasy_text1{
+		width: 100%;
+		margin-top: -550px;
+		display: none;
+
+
+
+	}
+	.tecstasy_text2{
+		width: 100%;
+		margin-top: -650px;
+
+	}
+	.tecstasy_text3{
+		width: 100%;
+		margin-top: 40px;
+		font-size: 10px;
+		text-align: center;
+	}
+	}
+  
 
