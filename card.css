@@ -108,7 +108,8 @@
 
   #svg1{
     top: 10px;
-    height: 60px;;
+    height: 100px;;
+    width: 100px;
   }
   .service-item:hover svg1 {
     top: -1px;
