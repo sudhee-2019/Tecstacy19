@@ -402,6 +402,7 @@ justify-content: space-around;
 	.tecstasy_text2{
 		width: 100%;
 		margin-top: -650px;
+		display:none;
 
 	}
 	.tecstasy_text3{
