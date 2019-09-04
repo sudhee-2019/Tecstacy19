@@ -1,112 +1,47 @@
-/* body{
-    margin: 0;
-    font-family: 'Cinzel Decorative', serif;
-  } */
-  .content{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background: rgb(0.7,0.7,0.7);
-  }
-      .time-title {
-    text-align: center;
-    margin: auto;
-    font-size: 30px;
-  }
-  .countdown {
-    margin: auto;
-    width: 100vw;
-    font-size: 30vw;
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: auto;
-    flex-wrap: wrap;
-    text-align: center;
-    color: rgb(0, 161, 241);
-  }
+/*body{
+	text-align: center;
+	background: rgb(255,255,255);
+  font-family: sans-serif;
+  font-weight: 100;
+padding-top: 100px;
+}
 
-  .day {
-    white-space: nowrap;
-    height: auto;
-    width: 100%;
-    font-size: 25px;
-    margin-bottom: 3%;
-    background: linear-gradient(135deg, rgba(0, 161, 241, 0.8), rgba(0, 161, 241, 0.2), rgba(0, 161, 241, 0.8), rgba(0, 161, 241, 0.2), rgba(0, 161, 241, 0.8));
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-  .time{
-    display: inline-block;
-    width: 40px;
-  }
-  .time-left {
-    width: 100%;
-    font-size: 24px;
-    margin-bottom: 5%;
-  }
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}*/
 
-  .time-title,
-  .time-left {
-    white-space: nowrap;
-    background: linear-gradient(135deg, rgba(0, 161, 241, 0.8), rgba(0, 161, 241, 0.2), rgba(0, 161, 241, 0.8), rgba(0, 161, 241, 0.2), rgba(0, 161, 241, 0.8));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    background-size: 300% 300%;
-    -webkit-animation: camuflage 6s linear infinite;
-    animation: camuflage 6s linear infinite;
-  }
+#clockdiv{
+	margin-top: 40px;
+	font-family: sans-serif;
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	background: transparent;
+}
 
-  .numbers {
-    width: 100%;
-    margin: auto;
-    font-size: 31px;
-    white-space: nowrap;
-    background: linear-gradient(135deg, rgba(0, 161, 241, 0.8), rgba(0, 161, 241, 0.2), rgba(0, 161, 241, 0.8), rgba(0, 161, 241, 0.2), rgba(0, 161, 241, 0.8));
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+#clockdiv > div{
+	border-radius: 3px;
+/*    background:  linear-gradient(to right, black , #ac4767 ); */
+    background:transparent;
+	display: inline-block;
+}
 
-  .bar {
-    width: 300px;
-    margin: 5% auto 0;
-    height: 10px;
-    background-color: #f5f5f5;
-    box-shadow: 0 0 5px 1px #f5f5f5;
-    border-radius: 3px;
-  }
+#clockdiv div > span{
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+	border-radius: 3px;
+    background: transparent ;
+    border-color: #ac4767;
+    border-style: solid;
+    border-width: thin;
+	display: inline-block;
+}
 
-  .regress-bar {
-    height: 100%;
-    width: 0;
-    background: linear-gradient(to right, #080808, #00a1f1,#080808) center/ 100% 100% no-repeat;
-    box-sizing: border-box;
-    z-index: 1;
-    box-shadow: 0 0 10px 1px #00a1f1;
-    animation: pulse 1s linear infinite;
-  }
-
-  @keyframes camuflage {
-    from {
-      background-position: 100% 50%;
-    }
-
-    to {
-      background-position: -50% 50%;
-    }
-  }
-
-  @keyframes pulse {
-    from {
-      opacity: 0.7;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
