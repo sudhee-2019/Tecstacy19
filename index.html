@@ -23,7 +23,7 @@
   <img  src="b.svg" class="loading2" id="h11">
   <img  src="I.svg" class="loading3" id="h12">
 
-  <div class='tecstasy_text3' style="text-align: center; ">CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY <br> <br>  A TWO DAY NATIONAL LEVEL TECHNICAL SYMPOSIUM</div>
+  <div class='tecstasy_text3' style="text-align: center; animation: fade-In 5s">CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY <br> <br>  A TWO DAY NATIONAL LEVEL TECHNICAL SYMPOSIUM</div>
 
     <div class='wrap' id="h1">
 
@@ -337,7 +337,7 @@
   
 
   <div class="container1">
-      <button class="btn-5" id="btn-exp" onclick="location.href='index3.html'" style="font-size: 12px; font-family: 'batma';">Explore</button>
+      <button class="btn-5" id="btn-exp" onclick="location.href='tecstasy.html'" style="font-size: 12px; font-family: 'batma';">Explore</button>
       
     
     <div class='tecstasy_text2'  id="" style="line-height: 30px; text-align: center"> Faculty Coordinators <br> <span align=center style="font-size: 16px;">U.Sai Ram - 8143364133 <br> S.Rakesh - 9951397356 </span></div>    
@@ -379,6 +379,9 @@ time left</p>
 <script src="JS/timer.js"></script>
   
 <script>
+const rollSound = new Audio();
+rollSound.src = "car-engine-start-sound-effect.mp3";
+document.getElementById('btn-exp').addEventListener("click", e => rollSound.play());
 // var timid= setTimeout(()=>{
 //   document.getElementById("h1").style='display:none';},14800);
 // var timid2= setTimeout(()=>{

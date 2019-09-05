@@ -253,7 +253,7 @@ justify-content: space-around;
 .tecstasy_text3{
 	font-family: 'batma';
 	margin: 0.75em auto;
-	margin-top: -600px;
+	margin-top: 100px;
 	font-size: 20px;
 	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
 	z-index: 1; 
@@ -402,12 +402,16 @@ justify-content: space-around;
 	.tecstasy_text2{
 		width: 100%;
 		margin-top: -650px;
-		display:none;
+
+		display: none;
+
 
 	}
 	.tecstasy_text3{
 		width: 100%;
-		margin-top: -400px;
+
+		margin-top: 200px;
+
 		font-size: 10px;
 		text-align: center;
 	}
