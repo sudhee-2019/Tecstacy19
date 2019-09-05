@@ -249,7 +249,7 @@ padding-right:0px;
   
   @media(max-width: 746px){
     .glow{
-       font-size: 30px;
+       font-size: 45px;
       color: #fff;
       text-align: center;
       -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -372,15 +372,15 @@ padding-right:0px;
     border: 2px solid #00123F;
   }
   @media(max-width: 748px){
-    .hero-unit{
+    /* .hero-unit{
     display: table;
     position: relative;
     width: 100%;
     min-height: 500px;
-    height: 100vh;
+    height: 100vh; */
     /* background-image: url("https://cdn.discordapp.com/attachments/588757704948973604/602734581619097603/Main.jpg"); */
     /* background-image: url("/images/background.jpg"); */
-    background-image:url("https://c.wallhere.com/photos/e2/68/digital_art_glowing_men_robot_technology_sports_athletes_black_background-101006.jpg!d");
+    /* background-image:url("https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -389,7 +389,7 @@ padding-right:0px;
     -o-background-size: cover;
     overflow: hidden;
   
-  }
+  } */
   /*.er{
   padding-bottom:00px;
   }
