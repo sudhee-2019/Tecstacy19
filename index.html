@@ -335,7 +335,7 @@
   
 
   <div class="container1">
-      <button class="btn-5" id="btn-exp" onclick="location.href='index3.html'" style="font-size: 9px; font-family: 'batma';">Explore</button>
+     <button class="btn-5" id="btn-exp"  onclick="location.href='index3.html'" style="font-size: 9px; font-family: 'batma';">Explore</button>
     
     <div class='tecstasy_text2'  id="" style="line-height: 30px; text-align: center"> Faculty Coordinators <br> <span align=center style="font-size: 13px;">U.Sai Ram - 8143364133 <br> S.Rakesh - 9951397356 </span></div>    
 <div class='tecstasy_text1'  id="" style="line-height: 30px; text-align: center"> Student Coordinators <br> <span align=center style="font-size: 13px;">B. Meghanaa - 9121673647 <br> Preethu &nbsp;&nbsp;&nbsp;- 7995507396 <br> L. Manideep - 7416262753<br> V. Meghana - 9963865299</span></div>
@@ -363,6 +363,9 @@ time left</p>
 <script type="text/javascript" src="app.js"></script>
   
 <script>
+const rollSound = new Audio();
+rollSound.src = "car-engine-start-sound-effect.mp3";
+document.getElementById('btn-exp').addEventListener("click", e => rollSound.play());
 // var timid= setTimeout(()=>{
 //   document.getElementById("h1").style='display:none';},14800);
 // var timid2= setTimeout(()=>{

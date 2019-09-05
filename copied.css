@@ -1,0 +1,573 @@
+:root {
+    --primary-color: #FFB300;
+    --primary-dark-color: #000000;
+    --secondry-color: #AA00FF;
+    --orange-color: #f4511e;
+    --orange-dark-color: #E64A19;
+    --blue-color: #1565c0;
+    --blue-dark-color: #0a4e9b;
+  }
+  img
+{
+	height:50px;
+	width:50px;
+}
+  .box
+{
+background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+height:300px;
+align-items: center;
+top:110px;
+opacity:1;
+border:1px solid black;
+border-radius:50px;
+border-width:40px;
+font-size:30px;
+color:white;
+padding-right:0px;
+
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+}
+#cbit_logo{
+  height: 100px;
+  width: 80px;
+	right: 30px;
+	top: 30px;
+	position: absolute;
+}
+.box:hover
+{
+    transform: scale(1.124);
+    transition: 200ms ease-in;
+	opacity:0.8;
+}
+  @font-face {
+      font-family: batma;
+      src:url(batmfa__.ttf);
+      font-weight: 100;
+    /*  font-style: normal;*/
+  
+  }
+  .hero-unit-btn{
+    font-family: batma;
+  }
+  #loadingg {
+  
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     position: fixed;
+     display: block;
+     opacity: 1;
+     background-color: black;
+     z-index: 1111199;
+     text-align: center;
+  }
+  #loading-svg{
+  margin-left: -50px;
+      margin-top: -50px;
+      position: absolute;
+  /*  margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
+    top: 50%;
+    left: 50%;
+  }
+  
+  /*FOR LOGOS TANANANA*/
+  .image1{
+      height: 250px;
+      padding: 20px;
+    }
+  /*.glow {
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+  
+    }*/
+    h3 {
+    font-size: 80px;
+    background: -webkit-linear-gradient( #ffffff ,  #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .about{
+      margin: auto;
+      /* color: #525252; */
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+  /*    background-color: #131313;*/
+      padding: 20px;
+  }
+  
+  .width60{
+      width: 50%;
+      margin: auto
+  }
+  
+  @media(max-width: 746px){
+    .width60{
+      width: 100%;
+    }
+    .map_div{
+      margin: auto;
+    }
+  
+  }
+  
+  h3{
+      padding: 20px;
+  }
+  
+  .glow1 {
+      /* font-size: 80px; */
+      color: #fff;
+      text-align: center;
+  
+    }
+  
+    .glow{
+       font-size: 80px;
+        font-family: batma;
+        color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
+  /*    color: red;*/
+      text-align: center;
+      -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes glow {
+      from {
+        /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #cecece, 0 0 50px #ffffff, 0 0 60px #a8a8a8, 0 0 70px #b8b8b8; */
+        text-shadow: 0 0 10px red, 0 0 30px orange;
+      }
+  
+      to {
+        /* text-shadow: 0 0 20px #fff, 0 0 30px #e4e4e4, 0 0 40px #dddddd, 0 0 50px #fbfbfb, 0 0 60px #f5eef2, 0 0 70px #ececec, 0 0 80px #e6e6e6; */
+        text-shadow: 0 0 20px orange, 0 0 30px red;
+      }
+    }
+  
+    #facebook1{
+      color: white;
+    }
+  
+    #about_robovanza1{
+      font-size: 60px;
+      padding-top: 30px;
+    }
+  
+    #events1{
+      font-size: 60px;
+  
+    }
+  
+  body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #131313; */
+    background-color: #090e22;
+    height: 100%;
+  }
+   #particles-js{
+    height: 100vh;
+  background:transparent;
+   }
+  .navbar-right{
+    float: right;
+  }
+  .mr-auto {
+      margin-right: 0 !important;
+  }
+  a:hover,a:active,a:focus,a:visited{
+    text-decoration: none;
+    outline: none;
+  }
+  section{
+    position: relative;
+  }
+  
+  .team-name{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+  }
+  .team-des{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #525252;
+  }
+  .list-des{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
+  .h1-heads{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+  }
+  .p-hilights{
+    font-size: 19px;
+      line-height: 1.375em;
+      color: black;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .navbar-transparent{
+    margin-right: 0 !important;
+    background: none;
+    position:absolute;
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .nav-image{
+    width: 100px;
+  }
+  
+  .er{
+    padding-bottom: 600px;
+    }
+  
+  @media(max-width: 746px){
+    .glow{
+       font-size: 30px;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+  
+    #about_robovanza1{
+      font-size: 30px;
+      padding-top: 20px;
+    }
+  
+    .er{
+      padding-bottom: 100px;
+      }
+    .navbar-transparent{
+      background:rgba(0,0,0,0.6);
+    }
+    .center-res{
+      text-align: center;
+    }
+  }
+  @media(max-width: 575){
+    .center-res{
+      text-align: center;
+    }
+  }
+  @media(max-width: 946px){
+    .nav-image{
+      width: 50px;
+    }
+  }
+  .nav-link{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover{
+    color: #EEE;
+  }
+  
+  .hero-unit{
+    display: table;
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    height: 100vh;
+    /* background-image: url("https://cdn.discordapp.com/attachments/588757704948973604/602734581619097603/Main.jpg"); */
+    /* background-image: url("/images/background.jpg"); */
+    background-image:url("https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+    /* background-image:url("https://wallpaperplay.com/walls/full/2/0/a/324371y.jpg"); */
+    background-position: center center;
+    background-size: 300px 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+  
+  }
+  
+  
+  .text-vertical-center {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    color: #fff;
+  }
+  .hero-unit-primary-text{
+    text-transform: uppercase;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 2;
+    color: #FFC90D;
+  
+  }
+  .hero-unit-primary-text2{
+    font-family: Apple Chancery, cursive;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFC90D;
+  
+  }
+  .hero-unit-secondary-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .hero-unit-secondary-text2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 3;
+    color: #FFC90D;
+  }
+  .hero-unit-btn{
+  /*  font-family: Dosis, sans-serif;*/
+   font-family: batma;
+    /* margin-top: 30px; */
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    align-items: center;
+    display: inline block;
+    /*float: middle;*/
+    background: transparent;
+    opacity: 0.9;
+    transition: 0.5s;
+    z-index: 5;
+  }
+  .hero-unit-btn:hover{
+    background: red;
+    color: #000;
+    border: 2px solid #00123F;
+  }
+  @media(max-width: 748px){
+    .hero-unit{
+    display: table;
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    height: 100vh;
+    /* background-image: url("https://cdn.discordapp.com/attachments/588757704948973604/602734581619097603/Main.jpg"); */
+    /* background-image: url("/images/background.jpg"); */
+    background-image:url("https://c.wallhere.com/photos/e2/68/digital_art_glowing_men_robot_technology_sports_athletes_black_background-101006.jpg!d");
+   background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    overflow: hidden;
+  
+  }
+  /*.er{
+  padding-bottom:00px;
+  }
+  */
+    .hero-unit-primary-text{
+      font-size: 35px;
+    }
+    .hero-unit-secondary-text{
+      font-size: 25px;
+    }
+    .hero-unit-btn{
+      padding: 10px 25px;
+      font-size: 20px;
+  
+    }
+  }
+  
+  .article-font{
+    font-size: 24px;
+  }
+  /*===========================================================*/
+  /*Flexboxes*/
+  /*===========================================================*/
+  h4{
+    hyphens:auto;
+    font-weight: 700;
+  
+  }
+  .card-container{
+    position: relative;
+    width: 100%;
+    display: -webkit-flex;
+    overflow: hidden;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .card-primary{
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+   #c0495c , #434a99
+      ) 1 100%;
+    border-radius: 3px;
+    background-color: transparent;
+  /*  color: #555;*/
+    /* width: 205px;
+    height: 285px; */
+    width: 355px;
+    height: 450px;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .team-card{
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border-width: 3px;
+    /* border-style: solid; */
+    /* border-image: 
+      linear-gradient(
+   #c0495c , #434a99
+      ) 1 100%; */
+    border-radius: 50%;
+    background-color: transparent;
+    /* width: 355px; */
+    /* height: 450px; */
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  
+  /* #himamsu{
+    clip: rect(0px,200px,200px,0px);
+  } */
+  
+  .card-primary:hover {
+    z-index: 1;
+    border: none;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
+    margin: 5px;
+  }
+  
+  .map_div{
+    height: 320px;
+    width: 320px;
+    border: 10px;
+    border: #FFB300;
+  }
+  
+  .cbit_map{
+    border: 10px;
+    border:rgba(0, 0, 0, 0.349);
+  }
+  
+  .title-h1{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .h1-underline{
+    border-top: 4px solid #c0495c;
+    width: 55px;
+    margin-top: 10px;
+  }
+  
+  .subhead-h6{
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .img-circle{
+  
+    border-radius: 50%;
+  
+  }
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer{
+    /* margin-top: 50px; */
+    color: white;
+  }
+  .footer h1{
+    font-size: 18px;
+    margin: 25px 0;
+  }
+  .footer p{
+    font-size: 12px;
+  }
+  .copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .fa-heart-o{
+    color: red;
+    font-size: 15px;
+  }
+  .footer hr{
+    margin-top:10px;
+    background-color: #ccc;
+  
+  }
+   .footer-image /*img */{
+    width: 90px;
+  }
+  /*.robo-head1{
+    margin-top: 70px; color: #131313; font-size: 80px;
+  }
+  */
+  
+  .team-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+  
+  }
