@@ -230,7 +230,7 @@ justify-content: space-around;
 	font-size: 15px;
 	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
 	z-index: 1; 
-	width: 260px;
+	width: 360px;
 	/* For the Tecstacy color */
 	background: linear-gradient(to right, red, orange 100%);
 	-webkit-background-clip: text;
@@ -241,10 +241,10 @@ justify-content: space-around;
 	margin: 0.75em auto;
 	float: left;
 	margin-top: -60px;
-	font-size: 15px;
+	font-size: 20px;
 	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
 	z-index: 1; 
-	width: 260px;
+	width: 360px;
 	/* For the Tecstacy color */
 	background: linear-gradient(to right, red, orange 100%);
 	-webkit-background-clip: text;
@@ -253,7 +253,7 @@ justify-content: space-around;
 .tecstasy_text3{
 	font-family: 'batma';
 	margin: 0.75em auto;
-	margin-top: -500px;
+	margin-top: -600px;
 	font-size: 20px;
 	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
 	z-index: 1; 
